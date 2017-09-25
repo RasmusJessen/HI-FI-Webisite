@@ -4,10 +4,10 @@
 Jeg startede med at lave Wireframes til både mobil og ipad, og samtidig også skitser. Lige så stille begyndte jeg at lave koden til min hjemmeside. 
 
 ## Wireframe (Mobil)
-<img src="Billeder/Wireframe(mobil).jpg">
+<img src="../public/Billeder/Wireframe(mobil).jpg">
 
 ## Wireframe (Ipad)
-<img src="Billeder/Wireframe(Ipad).jpg">
+<img src="../public/Billeder/Wireframe(Ipad).jpg">
 
 
 ## Dag 2
