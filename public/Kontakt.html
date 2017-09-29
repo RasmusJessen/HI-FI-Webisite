@@ -56,17 +56,15 @@
      <article>
 
      </article>
-     
-     <div class="kontakt">
+        
+     <div class="konform">
             <i class="fa fa-envelope" style="font-size:60px" aria-hidden="true"></i>
-     <h3>Kontakt os her</h3>
-     <form name="myForm" action="/action_page_post.php" method="post">
-     <input type="text" placeholder="Fulde Navn">
-     <input type="text" placeholder="Email">
-     <textarea type="text" placeholder="Skriv besked her"></textarea>
-       <input class="send" type="submit" value="Send her">
-     </form>
-     </div>
+            <h3>Kontakt os her</h3>
+            <input type="text" id="inputnavn" placeholder="Skriv dit navn">
+            <input type="text" id="inputemail" placeholder="Skriv din e-mail">
+            <textarea class="inpmsg" type="text" id="inputbesked" placeholder="Skriv din besked"></textarea>
+            <button id="send" onClick="send()">Send</button>
+          </div>
      </div>
         </div>
     </main>
@@ -88,17 +86,8 @@
             </a>
     
         </footer>
-
-        <script>
-            function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-        alert("Placeholder must be filled out");
-        return true;
-    }
-}
-        </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 </html>
