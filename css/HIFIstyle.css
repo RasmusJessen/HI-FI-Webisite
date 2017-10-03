@@ -3,6 +3,7 @@ main {
     min-height:1200px;
 }
 
+
 section h1  {
     margin-top:200px;
     margin-bottom:50px;
@@ -79,20 +80,6 @@ h4 {
     display:block;
 }
 
-.klik {
-    background-color: grey;
-    border-radius: 8px;
-    color: white;
-    width:50%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left:50px;
-    cursor: pointer;
-}
-
-
 p {
     text-align: center;
 }
@@ -108,9 +95,6 @@ article h3 {
     color:darkslategray;
 }
 
-.konform {
-    margin-top:100px;
-}
 
 input {
     width:100%;
@@ -144,6 +128,7 @@ footer img {
     width:8%;
 }
 
+
 #border {
     border-bottom:5px solid red !important;
 }
@@ -158,16 +143,9 @@ footer img {
     margin-top:80px;
 }
 
-.konform .fa {
+.fa-envelope {
     margin-left:150px;
     margin-top:80px;
     margin-bottom:20px;
 }
 
-.konform h3 {
-    text-align:center;
-}
-
-.konform {
-    margin-top:100px;
-}

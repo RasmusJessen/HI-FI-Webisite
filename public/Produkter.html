@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/HIFIstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
     <title>Produkter</title>
 </head>
 <body>
@@ -22,9 +23,9 @@
                   </div>
                   <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                      <li class="active"><a href="HIFI.html">Forside</a></li>
-                      <li><a href="Produkter.html">Produkter</a></li>
-                      <li><a href="Kontakt.html">Kontakt og Information</a></li>
+                        <li class="active"><a href="HIFI.html"><i class="fa fa-home" aria-hidden="true" style="font-size:20px"></i>Forside</a></li>
+                        <li class="active"><a href="Produkter.html"><i class="fa fa-product-hunt" aria-hidden="true"  style="font-size:20px"></i>Produkter</a></li>
+                        <li class="active"><a href="Kontakt.html"><i class="fa fa-envelope" aria-hidden="true"  style="font-size:20px"></i>Kontakt og Information</a></li>
                     </ul>
                   </div>
                 </div>
@@ -36,7 +37,7 @@
         <h1>Vores Produkter</h1>
         </section>
 
-        <input type="text" id="søg" placeholder="Søg Produkter">
+        <input type="text" id="soeg" placeholder="Søg Produkter">
         <button id="klik">Søg</button>
     
         <div class="container3">
@@ -91,6 +92,7 @@
     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
 
         <script>
                 fetch('http://localhost:1337/produkt')
