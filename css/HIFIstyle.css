@@ -1,4 +1,9 @@
 
+
+body {
+    background-color:lightblue;
+}
+
 main {
     min-height:1200px;
 }
@@ -114,6 +119,7 @@ footer {
     width:100%;
     height:auto;
     background-color:darkgrey;
+    border:5px solid black !important;
 }
 
 footer h2 {
@@ -128,9 +134,8 @@ footer img {
     width:8%;
 }
 
-
-#border {
-    border-bottom:5px solid red !important;
+footer .fa-phone {
+    margin-left:100px;
 }
 
 .fa-shopping-cart {

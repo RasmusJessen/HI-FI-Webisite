@@ -58,14 +58,7 @@ console.log(fetchurl);
 
         data.forEach(function(element) {
             document.getElementById('content').innerHTML +=`<h2> ${element.navn} </h2>
-            <img src="../Billeder/hojtalere/${element.img}">
-            <img src="../Billeder/dvdafspillere/${element.img}">
-            <img src="../Billeder/cd_afspillere/${element.img}">
-            <img src="../Billeder/int_forstaerkere/${element.img}"> 
-            <img src="../Billeder/pladespillere/${element.img}"> 
-            <img src="../Billeder/effektforstaerkere/${element.img}"> 
-            <img src="../Billeder/roer_forstaerkere/${element.img}"> 
-            <img src="../Billeder/forforstaerkere/${element.img}"> 
+            <img src="../Billeder/${element.img}">
             <h3> ${element.pris} kr.</h3>
             <p>varenr nr ${element.varenr}</p> 
             <p>${element.info}</p>

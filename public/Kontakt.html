@@ -28,7 +28,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="HIFI.html"><i class="fa fa-home" aria-hidden="true" style="font-size:20px"></i>Forside</a></li>
                     <li class="active"><a href="Produkter.html"><i class="fa fa-product-hunt" aria-hidden="true"  style="font-size:20px"></i>Produkter</a></li>
-                    <li class="active"><a href="Kontakt.html"><i class="fa fa-envelope" aria-hidden="true"  style="font-size:20px"></i>Kontakt og Information</a></li>
+                    <li class="active"><a href="Kontakt.html"><i class="fa fa-info-circle" aria-hidden="true"  style="font-size:20px"></i>Kontakt og Information</a></li>
                 </ul>
             </div>
         </div>
@@ -48,7 +48,7 @@
             <div class="col-lg-12 col-md-12">
                 <article>
                     <i class="fa fa-shopping-cart" style="font-size:60px" aria-hidden="true"></i>
-                    <h3>Gratis Fragt på køb over 5000 kr.</h3>
+                    <h3>Gratis Fragt på køb over 3000 kr.</h3>
                     <p>Bestil inden kl. 16 på hverdage, og få den leveret samme dag.</p>
                 </article>
                 <article>
@@ -57,13 +57,16 @@
                     <p>Hver måned udlevere vi en rabat kode. Rabat vil altid være mellem 10-20%.</p>
                 </article>
 
-                 <article style="text-align:center">
+                 <article>
                     <i class="fa fa-envelope" style="font-size:60px" aria-hidden="true"></i>
                  </article>
-                <h3>Kontakt os her</h3>
+
+                <h3 id="titel">Kontakt os her</h3>
+                <div class="kon">
                 <input type="text" id="inputnavn" placeholder="Skriv dit navn">
                 <input type="text" id="inputemail" placeholder="Skriv din e-mail">
                 <textarea class="inpmsg" type="text" id="inputbesked" placeholder="Skriv din besked"></textarea>
+                </div>
                 <button id="send" onClick="send()">Send</button>
 
             </div>
@@ -72,11 +75,12 @@
 
     <footer>
         <h2>Kontakt Information</h2>
-        <i class="fa fa-phone" aria-hidden="true" style="font-size:30px"></i>
+        <i class="fa fa-phone" aria-hidden="true"></i>
         <p><strong>Telefon:</strong></p>
         <p>12345678</p>
         <p>Vores telefoner er åbne mellem 9-14</p>
-
+        
+        <i class="fa fa-envelope" aria-hidden="true"></i>
         <p><strong>Email:</strong></p>
         <p>hifi@hotmail.com</p>
         <p>Husk også at besøge vores Facebook side og Instagram</p>
@@ -86,7 +90,6 @@
         <a href="https://www.instagram.com/hifiklubbendanmark/?hl=da">
             <img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c521.png">
             </a>
-
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
