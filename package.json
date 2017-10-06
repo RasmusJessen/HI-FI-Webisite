@@ -1,0 +1,22 @@
+{
+  "name": "hifi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RasmusJessen/HI-FI-Webisite.git"
+  },
+  "author": "rasmus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RasmusJessen/HI-FI-Webisite/issues"
+  },
+  "homepage": "https://github.com/RasmusJessen/HI-FI-Webisite#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
