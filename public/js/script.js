@@ -1,3 +1,10 @@
+
+document.addEventListener("DOMContentLoaded", event => {
+    if (localStorage.getItem('token') === null) {
+        window.location.assign('Login.html');
+    }
+ })
+
 function send(send){
     var navn = document.getElementById("inputnavn").value
     var email = document.getElementById("inputemail").value
@@ -38,6 +45,7 @@ function checkEmail(email){
 
 document.getElementById("klik").addEventListener("click", search)
 
+//Søge funktion
 function search() {
     var tekst = document.getElementById("soeg").value
    //alert (tekst)
