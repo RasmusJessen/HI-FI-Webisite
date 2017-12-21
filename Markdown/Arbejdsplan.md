@@ -13,7 +13,7 @@ Jeg fik taget den javascriptkode Frank havde lavet og sat den, og ændrede lidt 
 Skulle til lægen.
 
 ## Dag 5 13-11 
-Jeg fik hjælp til at lave min logind, og til sidst fik jeg lavet det. Jeg kan logge ind og komme på min admin side, logge ud og derfor ikke komme ind på min admin side, før jeg logger ind igen. 
+Jeg fik hjælp til at lave min logind, og til sidst fik jeg lavet det. Jeg kan logge ind og komme på min admin side, logge ud og derfor ikke komme ind på min admin side, før jeg logger ind igen. Den returnere også til min accestokens tabel. 
 
 ## Dag 6 14-11
 Jeg så igennem Jacks kode for opret produkter, og prøvede få det sat ind. 
