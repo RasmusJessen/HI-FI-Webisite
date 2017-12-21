@@ -99,7 +99,8 @@ function getParameterByName(name, url) {
                          id: id,
                          name: name,
                          description: description,
-                         price: price
+                         price: price,
+                         varenr: varenr
                       }),
                       cache: 'no-cache',
                       cors: 'cors'
@@ -199,7 +200,6 @@ function getParameterByName(name, url) {
     // hent alle produkter og udskriv listen
     fetch('http://localhost:1337/produkt')
        .then((response) => {
-             console.log('hey');
           if (response.ok) {
              return response.json();
           }
