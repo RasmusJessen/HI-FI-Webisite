@@ -26,6 +26,8 @@
                     localStorage.setItem('token', data.AccessToken);
                     localStorage.setItem('userid', data.ID);
                     document.getElementById('status').innerHTML = "Du er nu logget ind ...";
+                    
+                    window.location.replace("Admin.html");
                 })
                 .catch((err) => {
                     console.log(err);
@@ -39,5 +41,7 @@
 document.getElementById('logud').addEventListener('click', () => {
     if (confirm('Vil du logge af?')) {
         localStorage.clear();
+        window.location.replace("HIFI.html");
     }
+    
 })

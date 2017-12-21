@@ -235,3 +235,23 @@ footer .fa {
 .beskriv {
     width:50%;
 }
+
+#productsForm {
+    margin-top:40px;
+}
+
+#productsForm input {
+    margin-top:5px;
+    border:1px solid black;
+}
+
+#productList a {
+    background-color: grey;
+    color: white;
+    padding: 6px 10px;
+    margin-bottom:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:8px;
+}
