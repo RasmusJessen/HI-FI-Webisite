@@ -230,6 +230,7 @@ footer .fa {
 
 #logud {
     margin-top:10px;
+    color:white;
 }
 
 .beskriv {
@@ -245,10 +246,16 @@ footer .fa {
     border:1px solid black;
 }
 
+#productList tr {
+    border-bottom:2px solid black;
+    border-top: 2px solid black;
+}
+
 #productList a {
     background-color: grey;
     color: white;
     padding: 6px 10px;
+    margin-top:10px;
     margin-bottom:10px;
     text-align: center;
     text-decoration: none;

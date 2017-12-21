@@ -226,7 +226,7 @@ function getParameterByName(name, url) {
                       <a href="#" class="button delete" data-id="${json[i].id}">slet</a>
                    </td>
                    <td style="text-align:center">${json[i].navn}</td>
-                   <td >${json[i].pris}</td>    
+                   <td>${json[i].pris}</td>    
                    <td style="text-align:center">${json[i].info}</td>
                    <td style="text-align:center">${json[i].varenr}</td>
                 </tr>`;
